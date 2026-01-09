@@ -6,6 +6,12 @@
   <title>WDD 131 – Dynamic Web Fundamentals – Azuwuigne Kizito</title>
   <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Azuwuigne Kizito | Home page project showing basic HTML, CSS, and JavaScript use.">
   <meta name="author" content="Azuwuigne Kizito">
+
+  <!-- Google Fonts (fixed) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/base.css">
   <script src="scripts/getdates.js" defer></script>
 </head>
@@ -24,7 +30,8 @@
   <main>
     <h1>Azuwuigne Kizito Elochukwu</h1>
 
-    <div class="introcard">
+    <!-- Replaced divs with section.card -->
+    <section class="card">
       <h3>About Me</h3>
       <img src="images/profile.png" alt="Azuwuigne Kizito Profile Picture">
       <p>Hello! My name is Azuwuigne Kizito Elochukwu, 
@@ -32,9 +39,9 @@
         a degree in Computer Science with a focus on web 
         development. I have a passion for creating dynamic 
         and user-friendly web applications.</p>
-    </div>
+    </section>
 
-    <div class="introcard">
+    <section class="card">
       <h3>Lagos, Nigeria</h3>
       <img src="images/lagos.png" alt="Photo of Lagos, Nigeria" width="300" height="200">
       <p>Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. 
@@ -42,7 +49,7 @@
         Lagos is a major financial center in Africa and is home to numerous industries, including technology, 
         entertainment, and manufacturing. The city boasts beautiful beaches, lively markets, and a rich history that 
         reflects Nigeria's cultural heritage.</p>
-    </div>
+    </section>
 
   </main>
 
