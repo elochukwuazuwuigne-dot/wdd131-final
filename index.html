@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD 131 – Dynamic Web Fundamentals – Azuwuigne Kizito</title>
-  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Azuwuigne Kizito | Home page project showing basic HTML, CSS, and JavaScript use.">
   <meta name="author" content="Azuwuigne Kizito">
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Azuwuigne Kizito | Home page project showing basic HTML, CSS, and JavaScript use.">
+  <title>WDD 131 – Dynamic Web Fundamentals – Azuwuigne Kizito</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/base.css">
 
-  <!-- Google Fonts (fixed) -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles/base.css">
-
-
+  <!-- JavaScript -->
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
 
@@ -31,7 +33,6 @@
   <main>
     <h1>Azuwuigne Kizito Elochukwu</h1>
 
-    <!-- Replaced divs with section.card -->
     <section class="card">
       <h2>About Me</h2>
       <img src="images/profile.png" alt="Azuwuigne Kizito Profile Picture">
@@ -44,7 +45,7 @@
 
     <section class="card">
       <h2>Lagos, Nigeria</h2>
-      <img src="images/lagos.png" alt="Photo of Lagos, Nigeria" width="300" height="200">
+      <img src="images/lagos.png" alt="Skyline view of Lagos, Nigeria" width="300" height="200">
       <p>Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. 
         It is a bustling metropolis known for its vibrant culture, diverse population, and economic significance. 
         Lagos is a major financial center in Africa and is home to numerous industries, including technology, 
@@ -55,19 +56,15 @@
   </main>
 
   <footer>
-  <p>© <span id="currentyear"></span> Azuwuigne Kizito | Nigeria</p>
-  <p id="lastModified"></p>
+    <p>© <span id="currentyear"></span> Azuwuigne Kizito | Nigeria</p>
+    <p id="lastModified"></p>
 
-  <!-- Additional links to meet minimum link requirement -->
-  <div class="footer-links">
-    <a href="https://www.byupathway.org" target="_blank">BYU–Pathway</a> |
-    <a href="https://www.byui.edu" target="_blank">BYU–Idaho</a> |
-    <a href="mailto:elochukwuazuwuigne@gmail.com">Email Me</a>
-  </div>
-</footer>
+    <div class="footer-links">
+      <a href="https://www.byupathway.org" target="_blank">BYU–Pathway</a> |
+      <a href="https://www.byui.edu" target="_blank">BYU–Idaho</a> |
+      <a href="mailto:elochukwuazuwuigne@gmail.com">Email Me</a>
+    </div>
+  </footer>
 
-  <script src="scripts/getdates.js" defer></script>
-  
 </body>
 </html>
-
