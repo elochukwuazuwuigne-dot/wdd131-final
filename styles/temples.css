@@ -1,16 +1,15 @@
-/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* VARIABLES */
+/* COLORS */
 :root {
-  --primary: #004d40;
-  --accent: #80cbc4;
+  --primary: #4a148c;
+  --accent: #d1c4e9;
+  --text: #f9f9f9;
   --bg: #222;
-  --text: #fafafa;
 }
 
 /* BODY */
@@ -29,35 +28,44 @@ header {
   background-color: var(--primary);
   color: white;
   padding: 1rem;
-  text-align: center;
+  text-align: left;
   position: relative;
 }
 
-/* NAVIGATION — MOBILE */
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* NAVIGATION */
+nav {
+  position: relative;
+}
+
 #menu {
   background: none;
   border: none;
   color: white;
   font-size: 1.8rem;
-  cursor: pointer;
   position: absolute;
-  top: 1rem;
   right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
 }
 
 .navigation {
   display: none;
   flex-direction: column;
   background-color: var(--primary);
+  margin-top: 1rem;
 }
 
 .navigation a {
   color: white;
   text-decoration: none;
   padding: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
-  transition: background 0.3s ease;
+  border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 .navigation a:hover {
@@ -65,6 +73,7 @@ header {
   color: #000;
 }
 
+/* WHEN OPEN */
 .navigation.open {
   display: flex;
 }
@@ -80,28 +89,24 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 figure {
   background: white;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 img {
   width: 100%;
-  height: 550px;
-  object-fit: cover;
+  height: auto;
   border-radius: 0.5rem;
 }
 
 figcaption {
   margin-top: 0.5rem;
   font-weight: bold;
-  color: #222;
 }
 
 /* FOOTER */
