@@ -72,9 +72,10 @@ nav {
 }
 
 .navigation a:hover {
-  background-color: var(--accent);
+  background-color: #b39ddb; /* darker purple */
   color: #000;
 }
+
 
 /* WHEN OPEN */
 .navigation.open {
@@ -109,7 +110,7 @@ img {
 
 figcaption {
   margin-top: 0.5rem;
-  color: var(--text);
+  color: var(--primary);
   font-weight: bold;
 }
 
